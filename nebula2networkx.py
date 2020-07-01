@@ -92,7 +92,7 @@ def nebula2networkx(client:GraphClient, nebula_space:str ,graph:nx.MultiDiGraph 
 
 def draw_networkx_graph(graph):
     import matplotlib.pyplot as plt
-    nx.draw(G, with_labels=True, font_weight='bold')
+    nx.draw(graph, with_labels=True, font_weight='bold')
     plt.show()
 
 
