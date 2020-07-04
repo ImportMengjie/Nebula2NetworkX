@@ -1,0 +1,4793 @@
+{
+    "vertex": [
+        {
+            "name": "Player",
+            "schema": {},
+            "data": [
+                {
+                    "name": "Tim Duncan",
+                    "age": 44,
+                    "playing": false,
+                    "career": 19,
+                    "startYear": 1997,
+                    "endYear": 2016,
+                    "games": 1392,
+                    "avgScore": 19,
+                    "serveTeams": 1,
+                    "country": "America",
+                    "champions": 5
+                },
+                {
+                    "name": "Tony Parker",
+                    "age": 38,
+                    "playing": false,
+                    "career": 18,
+                    "startYear": 2001,
+                    "endYear": 2019,
+                    "games": 1254,
+                    "avgScore": 15.5,
+                    "serveTeams": 2,
+                    "country": "France",
+                    "champions": 4
+                },
+                {
+                    "name": "LaMarcus Aldridge",
+                    "age": 35,
+                    "playing": true,
+                    "career": 14,
+                    "startYear": 2006,
+                    "endYear": 2020,
+                    "games": 1003,
+                    "avgScore": 19.5,
+                    "serveTeams": 2,
+                    "country": "America",
+                    "champions": 0
+                },
+                {
+                    "name": "Rudy Gay",
+                    "age": 34,
+                    "playing": true,
+                    "career": 14,
+                    "startYear": 2006,
+                    "endYear": 2020,
+                    "games": 939,
+                    "avgScore": 17.1,
+                    "serveTeams": 4,
+                    "country": "America",
+                    "champions": 0
+                },
+                {
+                    "name": "Marco Belinelli",
+                    "age": 34,
+                    "playing": true,
+                    "career": 13,
+                    "startYear": 2007,
+                    "endYear": 2020,
+                    "games": 855,
+                    "avgScore": 9.7,
+                    "serveTeams": 9,
+                    "country": "Italy",
+                    "champions": 1
+                },
+                {
+                    "name": "Danny Green",
+                    "age": 33,
+                    "playing": true,
+                    "career": 11,
+                    "startYear": 2009,
+                    "endYear": 2020,
+                    "games": 681,
+                    "avgScore": 8.9,
+                    "serveTeams": 4,
+                    "country": "America",
+                    "champions": 2
+                },
+                {
+                    "name": "Kyle Anderson",
+                    "age": 27,
+                    "playing": true,
+                    "career": 6,
+                    "startYear": 2014,
+                    "endYear": 2020,
+                    "games": 359,
+                    "avgScore": 5.4,
+                    "serveTeams": 2,
+                    "country": "America",
+                    "champions": 0
+                },
+                {
+                    "name": "Aron Baynes",
+                    "age": 34,
+                    "playing": true,
+                    "career": 8,
+                    "startYear": 2012,
+                    "endYear": 2020,
+                    "games": 469,
+                    "avgScore": 6,
+                    "serveTeams": 4,
+                    "country": "Australia",
+                    "champions": 1
+                },
+                {
+                    "name": "Boris Diaw",
+                    "age": 38,
+                    "playing": false,
+                    "career": 14,
+                    "startYear": 2003,
+                    "endYear": 2017,
+                    "games": 1064,
+                    "avgScore": 8.6,
+                    "serveTeams": 5,
+                    "country": "France",
+                    "champions": 1
+                },
+                {
+                    "name": "Tiago Splitter",
+                    "age": 36,
+                    "playing": false,
+                    "career": 7,
+                    "startYear": 2010,
+                    "endYear": 2017,
+                    "games": 355,
+                    "avgScore": 7.9,
+                    "serveTeams": 3,
+                    "country": "Brazil",
+                    "champions": 1
+                },
+                {
+                    "name": "Cory Joseph",
+                    "age": 29,
+                    "playing": true,
+                    "career": 9,
+                    "startYear": 2011,
+                    "endYear": 2020,
+                    "games": 592,
+                    "avgScore": 6.9,
+                    "serveTeams": 4,
+                    "country": "Canada",
+                    "champions": 1
+                },
+                {
+                    "name": "David West",
+                    "age": 40,
+                    "playing": false,
+                    "career": 15,
+                    "startYear": 2003,
+                    "endYear": 2018,
+                    "games": 1034,
+                    "avgScore": 13.6,
+                    "serveTeams": 4,
+                    "country": "America ",
+                    "champions": 2
+                },
+                {
+                    "name": "Jonathon Simmons",
+                    "age": 31,
+                    "playing": false,
+                    "career": 4,
+                    "startYear": 2015,
+                    "endYear": 2019,
+                    "games": 258,
+                    "avgScore": 8.3,
+                    "serveTeams": 3,
+                    "country": "America",
+                    "champions": 0
+                },
+                {
+                    "name": "Dejounte Murray",
+                    "age": 24,
+                    "playing": true,
+                    "career": 3,
+                    "startYear": 2016,
+                    "endYear": 2020,
+                    "games": 177,
+                    "avgScore": 7.9,
+                    "serveTeams": 1,
+                    "country": "America",
+                    "champions": 0
+                },
+                {
+                    "name": "Tracy McGrady",
+                    "age": 41,
+                    "playing": false,
+                    "career": 15,
+                    "startYear": 1997,
+                    "endYear": 2012,
+                    "games": 938,
+                    "avgScore": 19.6,
+                    "serveTeams": 6,
+                    "country": "America",
+                    "champions": 0
+                },
+                {
+                    "name": "Kobe Bryant",
+                    "age": 41,
+                    "playing": false,
+                    "career": 20,
+                    "startYear": 1996,
+                    "endYear": 2016,
+                    "games": 1346,
+                    "avgScore": 25,
+                    "serveTeams": 1,
+                    "country": "America",
+                    "champions": 5
+                },
+                {
+                    "name": "LeBron James",
+                    "age": 35,
+                    "playing": true,
+                    "career": 17,
+                    "startYear": 2003,
+                    "endYear": 2020,
+                    "games": 1258,
+                    "avgScore": 27.1,
+                    "serveTeams": 3,
+                    "country": "America",
+                    "champions": 3
+                },
+                {
+                    "name": "Stephen Curry",
+                    "age": 32,
+                    "playing": true,
+                    "career": 11,
+                    "startYear": 2009,
+                    "endYear": 2020,
+                    "games": 699,
+                    "avgScore": 23.5,
+                    "serveTeams": 1,
+                    "country": "America",
+                    "champions": 3
+                },
+                {
+                    "name": "Russell Westbrook",
+                    "age": 31,
+                    "playing": true,
+                    "career": 12,
+                    "startYear": 2008,
+                    "endYear": 2020,
+                    "games": 874,
+                    "avgScore": 23.2,
+                    "serveTeams": 2,
+                    "country": "America",
+                    "champions": 0
+                },
+                {
+                    "name": "Kevin Durant",
+                    "age": 31,
+                    "playing": true,
+                    "career": 12,
+                    "startYear": 2007,
+                    "endYear": 2020,
+                    "games": 849,
+                    "avgScore": 27,
+                    "serveTeams": 3,
+                    "country": "America",
+                    "champions": 2
+                },
+                {
+                    "name": "James Harden",
+                    "age": 30,
+                    "playing": true,
+                    "career": 11,
+                    "startYear": 2009,
+                    "endYear": 2020,
+                    "games": 826,
+                    "avgScore": 25.1,
+                    "serveTeams": 2,
+                    "country": "America",
+                    "champions": 0
+                },
+                {
+                    "name": "Chris Paul",
+                    "age": 35,
+                    "playing": true,
+                    "career": 15,
+                    "startYear": 2005,
+                    "endYear": 2020,
+                    "games": 1013,
+                    "avgScore": 18.5,
+                    "serveTeams": 4,
+                    "country": "America",
+                    "champions": 0
+                },
+                {
+                    "name": "DeAndre Jordan",
+                    "age": 31,
+                    "playing": true,
+                    "career": 12,
+                    "startYear": 2008,
+                    "endYear": 2020,
+                    "games": 875,
+                    "avgScore": 9.5,
+                    "serveTeams": 4,
+                    "country": "America",
+                    "champions": 0
+                },
+                {
+                    "name": "Ricky Rubio",
+                    "age": 29,
+                    "playing": true,
+                    "career": 9,
+                    "startYear": 2011,
+                    "endYear": 2020,
+                    "games": 555,
+                    "avgScore": 11.3,
+                    "serveTeams": 3,
+                    "country": "Spain",
+                    "champions": 0
+                },
+                {
+                    "name": "Rajon Rondo",
+                    "age": 34,
+                    "playing": true,
+                    "career": 14,
+                    "startYear": 2006,
+                    "endYear": 2020,
+                    "games": 873,
+                    "avgScore": 10.2,
+                    "serveTeams": 6,
+                    "country": "America",
+                    "champions": 1
+                },
+                {
+                    "name": "Manu Ginobili",
+                    "age": 42,
+                    "playing": false,
+                    "career": 16,
+                    "startYear": 2002,
+                    "endYear": 2018,
+                    "games": 1057,
+                    "avgScore": 13.3,
+                    "serveTeams": 1,
+                    "country": "Argentina",
+                    "champions": 4
+                },
+                {
+                    "name": "Kyrie Irving",
+                    "age": 28,
+                    "playing": true,
+                    "career": 9,
+                    "startYear": 2011,
+                    "endYear": 2020,
+                    "games": 528,
+                    "avgScore": 22.4,
+                    "serveTeams": 3,
+                    "country": "America",
+                    "champions": 1
+                },
+                {
+                    "name": "Vince Carter",
+                    "age": 43,
+                    "playing": true,
+                    "career": 22,
+                    "startYear": 1998,
+                    "endYear": 2020,
+                    "games": 1541,
+                    "avgScore": 16.7,
+                    "serveTeams": 8,
+                    "country": "America",
+                    "champions": 0
+                },
+                {
+                    "name": "Carmelo Anthony",
+                    "age": 35,
+                    "playing": true,
+                    "career": 17,
+                    "startYear": 2003,
+                    "endYear": 2020,
+                    "games": 1114,
+                    "avgScore": 23.6,
+                    "serveTeams": 5,
+                    "country": "America",
+                    "champions": 0
+                },
+                {
+                    "name": "Dwyane Wade",
+                    "age": 38,
+                    "playing": false,
+                    "career": 16,
+                    "startYear": 2003,
+                    "endYear": 2019,
+                    "games": 1054,
+                    "avgScore": 22,
+                    "serveTeams": 3,
+                    "country": "America",
+                    "champions": 3
+                },
+                {
+                    "name": "Joel Embiid",
+                    "age": 26,
+                    "playing": true,
+                    "career": 4,
+                    "startYear": 2016,
+                    "endYear": 2020,
+                    "games": 202,
+                    "avgScore": 24.1,
+                    "serveTeams": 1,
+                    "country": "Cameroon",
+                    "champions": 0
+                },
+                {
+                    "name": "Paul George",
+                    "age": 30,
+                    "playing": true,
+                    "career": 10,
+                    "startYear": 2010,
+                    "endYear": 2020,
+                    "games": 646,
+                    "avgScore": 19.9,
+                    "serveTeams": 3,
+                    "country": "America",
+                    "champions": 0
+                },
+                {
+                    "name": "Giannis Antetokounmpo",
+                    "age": 25,
+                    "playing": true,
+                    "career": 7,
+                    "startYear": 2013,
+                    "endYear": 2020,
+                    "games": 522,
+                    "avgScore": 20,
+                    "serveTeams": 1,
+                    "country": "Greece",
+                    "champions": 0
+                },
+                {
+                    "name": "Yao Ming",
+                    "age": 39,
+                    "playing": false,
+                    "career": 8,
+                    "startYear": 2002,
+                    "endYear": 2011,
+                    "games": 486,
+                    "avgScore": 19,
+                    "serveTeams": 1,
+                    "country": "China",
+                    "champions": 0
+                },
+                {
+                    "name": "Blake Griffin",
+                    "age": 31,
+                    "playing": true,
+                    "career": 10,
+                    "startYear": 2010,
+                    "endYear": 2020,
+                    "games": 622,
+                    "avgScore": 21.7,
+                    "serveTeams": 2,
+                    "country": "America",
+                    "champions": 0
+                },
+                {
+                    "name": "Damian Lillard",
+                    "age": 29,
+                    "playing": true,
+                    "career": 8,
+                    "startYear": 2012,
+                    "endYear": 2020,
+                    "games": 607,
+                    "avgScore": 24,
+                    "serveTeams": 1,
+                    "country": "America",
+                    "champions": 0
+                },
+                {
+                    "name": "Steve Nash",
+                    "age": 46,
+                    "playing": false,
+                    "career": 18,
+                    "startYear": 1996,
+                    "endYear": 2014,
+                    "games": 1217,
+                    "avgScore": 14.3,
+                    "serveTeams": 3,
+                    "country": "Canada",
+                    "champions": 0
+                },
+                {
+                    "name": "Dirk Nowitzki",
+                    "age": 41,
+                    "playing": false,
+                    "career": 21,
+                    "startYear": 1998,
+                    "endYear": 2019,
+                    "games": 1522,
+                    "avgScore": 20.7,
+                    "serveTeams": 1,
+                    "country": "Germany",
+                    "champions": 1
+                },
+                {
+                    "name": "Pau Gasol",
+                    "age": 39,
+                    "playing": false,
+                    "career": 18,
+                    "startYear": 2001,
+                    "endYear": 2019,
+                    "games": 1226,
+                    "avgScore": 17,
+                    "serveTeams": 5,
+                    "country": "Spain",
+                    "champions": 2
+                },
+                {
+                    "name": "Marc Gasol",
+                    "age": 35,
+                    "playing": true,
+                    "career": 12,
+                    "startYear": 2008,
+                    "endYear": 2020,
+                    "games": 831,
+                    "avgScore": 14.7,
+                    "serveTeams": 2,
+                    "country": "Spain",
+                    "champions": 1
+                },
+                {
+                    "name": "Grant Hill",
+                    "age": 47,
+                    "playing": false,
+                    "career": 18,
+                    "startYear": 1994,
+                    "endYear": 2013,
+                    "games": 1026,
+                    "avgScore": 16.7,
+                    "serveTeams": 4,
+                    "country": "America",
+                    "champions": 0
+                },
+                {
+                    "name": "Ray Allen",
+                    "age": 44,
+                    "playing": false,
+                    "career": 18,
+                    "startYear": 1996,
+                    "endYear": 2014,
+                    "games": 1300,
+                    "avgScore": 18.9,
+                    "serveTeams": 4,
+                    "country": "America",
+                    "champions": 2
+                },
+                {
+                    "name": "Klay Thompson",
+                    "age": 30,
+                    "playing": true,
+                    "career": 8,
+                    "startYear": 2011,
+                    "endYear": 2019,
+                    "games": 615,
+                    "avgScore": 19.5,
+                    "serveTeams": 1,
+                    "country": "America",
+                    "champions": 3
+                },
+                {
+                    "name": "Kristaps Porzingis",
+                    "age": 24,
+                    "playing": true,
+                    "career": 4,
+                    "startYear": 2015,
+                    "endYear": 2020,
+                    "games": 237,
+                    "avgScore": 18.1,
+                    "serveTeams": 2,
+                    "country": "Latvia",
+                    "champions": 0
+                },
+                {
+                    "name": "Shaquille O'Neal",
+                    "age": 48,
+                    "playing": false,
+                    "career": 19,
+                    "startYear": 1992,
+                    "endYear": 2011,
+                    "games": 1207,
+                    "avgScore": 23.7,
+                    "serveTeams": 6,
+                    "country": "America",
+                    "champions": 4
+                },
+                {
+                    "name": "JaVale McGee",
+                    "age": 32,
+                    "playing": true,
+                    "career": 12,
+                    "startYear": 2008,
+                    "endYear": 2020,
+                    "games": 694,
+                    "avgScore": 7.9,
+                    "serveTeams": 6,
+                    "country": "America",
+                    "champions": 2
+                },
+                {
+                    "name": "Jason Kidd",
+                    "age": 47,
+                    "playing": false,
+                    "career": 19,
+                    "startYear": 1994,
+                    "endYear": 2013,
+                    "games": 1391,
+                    "avgScore": 12.6,
+                    "serveTeams": 4,
+                    "country": "America",
+                    "champions": 1
+                },
+                {
+                    "name": "Ben Simmons",
+                    "age": 23,
+                    "playing": true,
+                    "career": 3,
+                    "startYear": 2017,
+                    "endYear": 2020,
+                    "games": 214,
+                    "avgScore": 16.4,
+                    "serveTeams": 1,
+                    "country": "Australia",
+                    "champions": 0
+                },
+                {
+                    "name": "Luka Doncic",
+                    "age": 21,
+                    "playing": true,
+                    "career": 2,
+                    "startYear": 2018,
+                    "endYear": 2020,
+                    "games": 126,
+                    "avgScore": 24.4,
+                    "serveTeams": 1,
+                    "country": "Slovenia",
+                    "champions": 0
+                },
+                {
+                    "name": "Dwight Howard",
+                    "age": 34,
+                    "playing": true,
+                    "career": 16,
+                    "startYear": 2004,
+                    "endYear": 2020,
+                    "games": 1106,
+                    "avgScore": 16.8,
+                    "serveTeams": 6,
+                    "country": "",
+                    "champions": 0
+                },
+                {
+                    "name": "Amare Stoudemire",
+                    "age": 37,
+                    "playing": false,
+                    "career": 14,
+                    "startYear": 2002,
+                    "endYear": 2016,
+                    "games": 846,
+                    "avgScore": 18.9,
+                    "serveTeams": 4,
+                    "country": "",
+                    "champions": 0
+                }
+            ]
+        },
+        {
+            "name": "Team",
+            "schema": {},
+            "data": [
+                {
+                    "name": "Warriors"
+                },
+                {
+                    "name": "Nuggets"
+                },
+                {
+                    "name": "Rockets"
+                },
+                {
+                    "name": "Trail Blazers"
+                },
+                {
+                    "name": "Spurs"
+                },
+                {
+                    "name": "Thunders"
+                },
+                {
+                    "name": "Jazz"
+                },
+                {
+                    "name": "Clippers"
+                },
+                {
+                    "name": "Kings"
+                },
+                {
+                    "name": "Timberwolves"
+                },
+                {
+                    "name": "Lakers"
+                },
+                {
+                    "name": "Pelicans"
+                },
+                {
+                    "name": "Grizzlies"
+                },
+                {
+                    "name": "Mavericks"
+                },
+                {
+                    "name": "Suns"
+                },
+                {
+                    "name": "Hornets"
+                },
+                {
+                    "name": "Cavaliers"
+                },
+                {
+                    "name": "Celtics"
+                },
+                {
+                    "name": "Raptors"
+                },
+                {
+                    "name": "76ers"
+                },
+                {
+                    "name": "Pacers"
+                },
+                {
+                    "name": "Bulls"
+                },
+                {
+                    "name": "Hawks"
+                },
+                {
+                    "name": "Knicks"
+                },
+                {
+                    "name": "Pistons"
+                },
+                {
+                    "name": "Bucks"
+                },
+                {
+                    "name": "Magic"
+                },
+                {
+                    "name": "Nets"
+                },
+                {
+                    "name": "Wizards"
+                },
+                {
+                    "name": "Heat"
+                }
+            ]
+        }
+    ],
+    "edge": [
+        {
+            "name": "serves",
+            "data": [
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tim Duncan"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 1997,
+                        "endYear": 2016,
+                        "teamCareer": 19,
+                        "teamGames": 1392,
+                        "teamAvgScore": 19,
+                        "type": "zzzzz",
+                        "champions": 5
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tony Parker"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2001,
+                        "endYear": 2018,
+                        "teamCareer": 17,
+                        "teamGames": 1198,
+                        "teamAvgScore": 16.6,
+                        "type": "trade",
+                        "champions": 4
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tony Parker"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Hornets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2018,
+                        "endYear": 2019,
+                        "teamCareer": 1,
+                        "teamGames": 56,
+                        "teamAvgScore": 9.5,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "LaMarcus Aldridge"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Trail Blazers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2006,
+                        "endYear": 2015,
+                        "teamCareer": 9,
+                        "teamGames": 648,
+                        "teamAvgScore": 21.7,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "LaMarcus Aldridge"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2015,
+                        "endYear": 2020,
+                        "teamCareer": 5,
+                        "teamGames": 355,
+                        "teamAvgScore": 18.9,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Rudy Gay"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Grizzlies"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2006,
+                        "endYear": 2013,
+                        "teamCareer": 7,
+                        "teamGames": 479,
+                        "teamAvgScore": 19,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Rudy Gay"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Raptors"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2013,
+                        "endYear": 2013,
+                        "teamCareer": 1,
+                        "teamGames": 51,
+                        "teamAvgScore": 19.5,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Rudy Gay"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Kings"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2013,
+                        "endYear": 2017,
+                        "teamCareer": 4,
+                        "teamGames": 223,
+                        "teamAvgScore": 21.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Rudy Gay"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2017,
+                        "endYear": 2020,
+                        "teamCareer": 3,
+                        "teamGames": 186,
+                        "teamAvgScore": 13.7,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Marco Belinelli"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Warriors"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2007,
+                        "endYear": 2009,
+                        "teamCareer": 2,
+                        "teamGames": 75,
+                        "teamAvgScore": 8.9,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Marco Belinelli"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Raptors"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2009,
+                        "endYear": 2010,
+                        "teamCareer": 1,
+                        "teamGames": 66,
+                        "teamAvgScore": 7.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Marco Belinelli"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Hornets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2010,
+                        "endYear": 2012,
+                        "teamCareer": 2,
+                        "teamGames": 146,
+                        "teamAvgScore": 11.8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Marco Belinelli"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Bulls"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2012,
+                        "endYear": 2013,
+                        "teamCareer": 1,
+                        "teamGames": 73,
+                        "teamAvgScore": 9.6,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Marco Belinelli"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2013,
+                        "endYear": 2015,
+                        "teamCareer": 2,
+                        "teamGames": 142,
+                        "teamAvgScore": 11.4,
+                        "type": "trade",
+                        "champions": 1
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Marco Belinelli"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Kings"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2015,
+                        "endYear": 2016,
+                        "teamCareer": 1,
+                        "teamGames": 68,
+                        "teamAvgScore": 10.2,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Marco Belinelli"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Hornets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2016,
+                        "endYear": 2017,
+                        "teamCareer": 1,
+                        "teamGames": 74,
+                        "teamAvgScore": 10.5,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Marco Belinelli"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Hawks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2017,
+                        "endYear": 2018,
+                        "teamCareer": 1,
+                        "teamGames": 52,
+                        "teamAvgScore": 11.4,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Marco Belinelli"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "76ers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2018,
+                        "endYear": 2018,
+                        "teamCareer": 1,
+                        "teamGames": 28,
+                        "teamAvgScore": 13.6,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Marco Belinelli"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2018,
+                        "endYear": 2020,
+                        "teamCareer": 2,
+                        "teamGames": 131,
+                        "teamAvgScore": 5.8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Danny Green"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Cavaliers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2009,
+                        "endYear": 2010,
+                        "teamCareer": 1,
+                        "teamGames": 20,
+                        "teamAvgScore": 2,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Danny Green"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2010,
+                        "endYear": 2018,
+                        "teamCareer": 8,
+                        "teamGames": 520,
+                        "teamAvgScore": 9.1,
+                        "type": "trade",
+                        "champions": 1
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Danny Green"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Raptors"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2018,
+                        "endYear": 2019,
+                        "teamCareer": 1,
+                        "teamGames": 80,
+                        "teamAvgScore": 10.3,
+                        "type": "trade",
+                        "champions": 1
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Danny Green"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Lakers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2019,
+                        "endYear": 2020,
+                        "teamCareer": 1,
+                        "teamGames": 61,
+                        "teamAvgScore": 8.2,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Kyle Anderson"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2014,
+                        "endYear": 2018,
+                        "teamCareer": 4,
+                        "teamGames": 257,
+                        "teamAvgScore": 4.5,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Kyle Anderson"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Grizzlies"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2018,
+                        "endYear": 2020,
+                        "teamCareer": 2,
+                        "teamGames": 102,
+                        "teamAvgScore": 5.7,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Aron Baynes"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2012,
+                        "endYear": 2015,
+                        "teamCareer": 3,
+                        "teamGames": 139,
+                        "teamAvgScore": 3,
+                        "type": "trade",
+                        "champions": 1
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Aron Baynes"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Pistons"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2015,
+                        "endYear": 2017,
+                        "teamCareer": 2,
+                        "teamGames": 157,
+                        "teamAvgScore": 6.3,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Aron Baynes"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Celtics"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2017,
+                        "endYear": 2019,
+                        "teamCareer": 2,
+                        "teamGames": 132,
+                        "teamAvgScore": 6,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Aron Baynes"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Suns"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2019,
+                        "endYear": 2020,
+                        "teamCareer": 1,
+                        "teamGames": 42,
+                        "teamAvgScore": 11.5,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Boris Diaw"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Hawks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2003,
+                        "endYear": 2005,
+                        "teamCareer": 2,
+                        "teamGames": 142,
+                        "teamAvgScore": 4.8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Boris Diaw"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Suns"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2005,
+                        "endYear": 2008,
+                        "teamCareer": 4,
+                        "teamGames": 258,
+                        "teamAvgScore": 8.8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Boris Diaw"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Hornets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2008,
+                        "endYear": 2012,
+                        "teamCareer": 4,
+                        "teamGames": 260,
+                        "teamAvgScore": 11.3,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Boris Diaw"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2012,
+                        "endYear": 2016,
+                        "teamCareer": 4,
+                        "teamGames": 331,
+                        "teamAvgScore": 8.7,
+                        "type": "trade",
+                        "champions": 1
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Boris Diaw"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Jazz"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2016,
+                        "endYear": 2017,
+                        "teamCareer": 1,
+                        "teamGames": 73,
+                        "teamAvgScore": 4.6,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tiago Splitter"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2010,
+                        "endYear": 2015,
+                        "teamCareer": 5,
+                        "teamGames": 311,
+                        "teamAvgScore": 8.2,
+                        "type": "trade",
+                        "champions": 1
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tiago Splitter"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Hawks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2015,
+                        "endYear": 2016,
+                        "teamCareer": 1,
+                        "teamGames": 36,
+                        "teamAvgScore": 5.6,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tiago Splitter"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "76ers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2016,
+                        "endYear": 2017,
+                        "teamCareer": 1,
+                        "teamGames": 8,
+                        "teamAvgScore": 4.9,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Cory Joseph"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2011,
+                        "endYear": 2015,
+                        "teamCareer": 4,
+                        "teamGames": 204,
+                        "teamAvgScore": 4.5,
+                        "type": "trade",
+                        "champions": 1
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Cory Joseph"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Raptors"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2015,
+                        "endYear": 2017,
+                        "teamCareer": 2,
+                        "teamGames": 160,
+                        "teamAvgScore": 9.3,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Cory Joseph"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Pacers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2017,
+                        "endYear": 2019,
+                        "teamCareer": 2,
+                        "teamGames": 164,
+                        "teamAvgScore": 6.5,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Cory Joseph"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Kings"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2019,
+                        "endYear": 2020,
+                        "teamCareer": 1,
+                        "teamGames": 64,
+                        "teamAvgScore": 6.3,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "David West"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Hornets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2003,
+                        "endYear": 2011,
+                        "teamCareer": 8,
+                        "teamGames": 530,
+                        "teamAvgScore": 19,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "David West"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Pacers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2011,
+                        "endYear": 2015,
+                        "teamCareer": 4,
+                        "teamGames": 285,
+                        "teamAvgScore": 11.7,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "David West"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2015,
+                        "endYear": 2016,
+                        "teamCareer": 1,
+                        "teamGames": 78,
+                        "teamAvgScore": 7.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "David West"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Warriors"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2016,
+                        "endYear": 2018,
+                        "teamCareer": 2,
+                        "teamGames": 141,
+                        "teamAvgScore": 6.8,
+                        "type": "trade",
+                        "champions": 2
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Jonathon Simmons"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2015,
+                        "endYear": 2017,
+                        "teamCareer": 2,
+                        "teamGames": 133,
+                        "teamAvgScore": 6.2,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Jonathon Simmons"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Magic"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2017,
+                        "endYear": 2019,
+                        "teamCareer": 2,
+                        "teamGames": 110,
+                        "teamAvgScore": 13.9,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Jonathon Simmons"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "76ers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2019,
+                        "endYear": 2019,
+                        "teamCareer": 1,
+                        "teamGames": 15,
+                        "teamAvgScore": 5.5,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Dejounte Murray"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2016,
+                        "endYear": 2020,
+                        "teamCareer": 3,
+                        "teamGames": 177,
+                        "teamAvgScore": 7.9,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tracy McGrady"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Raptors"
+                        }
+                    },
+                    "data": {
+                        "startYear": 1997,
+                        "endYear": 2000,
+                        "teamCareer": 3,
+                        "teamGames": 192,
+                        "teamAvgScore": 15.4,
+                        "type": "zzzzz",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tracy McGrady"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Magic"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2000,
+                        "endYear": 2004,
+                        "teamCareer": 4,
+                        "teamGames": 295,
+                        "teamAvgScore": 28,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tracy McGrady"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Rockets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2004,
+                        "endYear": 2010,
+                        "teamCareer": 6,
+                        "teamGames": 303,
+                        "teamAvgScore": 24.4,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tracy McGrady"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Knicks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2010,
+                        "endYear": 2010,
+                        "teamCareer": 1,
+                        "teamGames": 24,
+                        "teamAvgScore": 9.4,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tracy McGrady"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Pistons"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2010,
+                        "endYear": 2011,
+                        "teamCareer": 1,
+                        "teamGames": 72,
+                        "teamAvgScore": 8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tracy McGrady"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Hawks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2011,
+                        "endYear": 2012,
+                        "teamCareer": 1,
+                        "teamGames": 52,
+                        "teamAvgScore": 5.3,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Kobe Bryant"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Lakers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 1996,
+                        "endYear": 2016,
+                        "teamCareer": 20,
+                        "teamGames": 1346,
+                        "teamAvgScore": 25,
+                        "type": "trade",
+                        "champions": 5
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "LeBron James"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Cavaliers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2003,
+                        "endYear": 2010,
+                        "teamCareer": 7,
+                        "teamGames": 548,
+                        "teamAvgScore": 29.7,
+                        "type": "zzzzz",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "LeBron James"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Heat"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2010,
+                        "endYear": 2014,
+                        "teamCareer": 4,
+                        "teamGames": 294,
+                        "teamAvgScore": 27.1,
+                        "type": "trade",
+                        "champions": 2
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "LeBron James"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Cavaliers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2014,
+                        "endYear": 2018,
+                        "teamCareer": 4,
+                        "teamGames": 301,
+                        "teamAvgScore": 27.5,
+                        "type": "trade",
+                        "champions": 1
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "LeBron James"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Lakers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2018,
+                        "endYear": 2020,
+                        "teamCareer": 2,
+                        "teamGames": 115,
+                        "teamAvgScore": 25.7,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Stephen Curry"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Warriors"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2009,
+                        "endYear": 2020,
+                        "teamCareer": 11,
+                        "teamGames": 699,
+                        "teamAvgScore": 23.5,
+                        "type": "zzzzz",
+                        "champions": 3
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Russell Westbrook"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Thunders"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2008,
+                        "endYear": 2019,
+                        "teamCareer": 11,
+                        "teamGames": 821,
+                        "teamAvgScore": 22.9,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Russell Westbrook"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Rockets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2019,
+                        "endYear": 2020,
+                        "teamCareer": 1,
+                        "teamGames": 53,
+                        "teamAvgScore": 27.5,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Kevin Durant"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Thunders"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2007,
+                        "endYear": 2016,
+                        "teamCareer": 9,
+                        "teamGames": 641,
+                        "teamAvgScore": 28.2,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Kevin Durant"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Warriors"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2016,
+                        "endYear": 2019,
+                        "teamCareer": 3,
+                        "teamGames": 208,
+                        "teamAvgScore": 26,
+                        "type": "trade",
+                        "champions": 2
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "James Harden"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Thunders"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2009,
+                        "endYear": 2012,
+                        "teamCareer": 3,
+                        "teamGames": 220,
+                        "teamAvgScore": 12.2,
+                        "type": "zzzzz",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "James Harden"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Rockets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2012,
+                        "endYear": 2020,
+                        "teamCareer": 8,
+                        "teamGames": 606,
+                        "teamAvgScore": 30.4,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Chris Paul"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Hornets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2005,
+                        "endYear": 2011,
+                        "teamCareer": 6,
+                        "teamGames": 425,
+                        "teamAvgScore": 22.8,
+                        "type": "zzzzz",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Chris Paul"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Clippers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2011,
+                        "endYear": 2017,
+                        "teamCareer": 6,
+                        "teamGames": 409,
+                        "teamAvgScore": 19.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Chris Paul"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Rockets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2017,
+                        "endYear": 2019,
+                        "teamCareer": 2,
+                        "teamGames": 116,
+                        "teamAvgScore": 15.6,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Chris Paul"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Thunders"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2019,
+                        "endYear": 2020,
+                        "teamCareer": 1,
+                        "teamGames": 63,
+                        "teamAvgScore": 17.7,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "DeAndre Jordan"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Clippers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2008,
+                        "endYear": 2018,
+                        "teamCareer": 10,
+                        "teamGames": 750,
+                        "teamAvgScore": 8.8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "DeAndre Jordan"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Mavericks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2018,
+                        "endYear": 2019,
+                        "teamCareer": 1,
+                        "teamGames": 50,
+                        "teamAvgScore": 11,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "DeAndre Jordan"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Knicks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2019,
+                        "endYear": 2019,
+                        "teamCareer": 1,
+                        "teamGames": 19,
+                        "teamAvgScore": 10.9,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "DeAndre Jordan"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Nets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2019,
+                        "endYear": 2020,
+                        "teamCareer": 1,
+                        "teamGames": 56,
+                        "teamAvgScore": 8.3,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Ricky Rubio"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Timberwolves"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2011,
+                        "endYear": 2017,
+                        "teamCareer": 6,
+                        "teamGames": 353,
+                        "teamAvgScore": 11.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Ricky Rubio"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Jazz"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2017,
+                        "endYear": 2019,
+                        "teamCareer": 2,
+                        "teamGames": 145,
+                        "teamAvgScore": 12.7,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Ricky Rubio"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Suns"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2019,
+                        "endYear": 2020,
+                        "teamCareer": 1,
+                        "teamGames": 57,
+                        "teamAvgScore": 13.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Rajon Rondo"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Celtics"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2006,
+                        "endYear": 2014,
+                        "teamCareer": 9,
+                        "teamGames": 527,
+                        "teamAvgScore": 11.9,
+                        "type": "trade",
+                        "champions": 1
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Rajon Rondo"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Mavericks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2014,
+                        "endYear": 2015,
+                        "teamCareer": 1,
+                        "teamGames": 46,
+                        "teamAvgScore": 9.3,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Rajon Rondo"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Kings"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2015,
+                        "endYear": 2016,
+                        "teamCareer": 1,
+                        "teamGames": 72,
+                        "teamAvgScore": 11.9,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Rajon Rondo"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Bulls"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2016,
+                        "endYear": 2017,
+                        "teamCareer": 1,
+                        "teamGames": 69,
+                        "teamAvgScore": 7.8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Rajon Rondo"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Pelicans"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2017,
+                        "endYear": 2018,
+                        "teamCareer": 1,
+                        "teamGames": 65,
+                        "teamAvgScore": 8.3,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Rajon Rondo"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Lakers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2018,
+                        "endYear": 2020,
+                        "teamCareer": 2,
+                        "teamGames": 94,
+                        "teamAvgScore": 7.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Manu Ginobili"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2002,
+                        "endYear": 2018,
+                        "teamCareer": 16,
+                        "teamGames": 1057,
+                        "teamAvgScore": 13.3,
+                        "type": "zzzzz",
+                        "champions": 4
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Kyrie Irving"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Cavaliers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2011,
+                        "endYear": 2017,
+                        "teamCareer": 6,
+                        "teamGames": 381,
+                        "teamAvgScore": 20.8,
+                        "type": "zzzzz",
+                        "champions": 1
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Kyrie Irving"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Celtics"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2017,
+                        "endYear": 2019,
+                        "teamCareer": 2,
+                        "teamGames": 127,
+                        "teamAvgScore": 24.4,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Kyrie Irving"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Nets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2019,
+                        "endYear": 2020,
+                        "teamCareer": 1,
+                        "teamGames": 20,
+                        "teamAvgScore": 27.4,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Vince Carter"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Raptors"
+                        }
+                    },
+                    "data": {
+                        "startYear": 1998,
+                        "endYear": 2004,
+                        "teamCareer": 6,
+                        "teamGames": 403,
+                        "teamAvgScore": 18.3,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Vince Carter"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Nets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2004,
+                        "endYear": 2009,
+                        "teamCareer": 5,
+                        "teamGames": 374,
+                        "teamAvgScore": 20.8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Vince Carter"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Magic"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2009,
+                        "endYear": 2011,
+                        "teamCareer": 2,
+                        "teamGames": 97,
+                        "teamAvgScore": 15.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Vince Carter"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Suns"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2011,
+                        "endYear": 2011,
+                        "teamCareer": 1,
+                        "teamGames": 51,
+                        "teamAvgScore": 13.5,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Vince Carter"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Mavericks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2011,
+                        "endYear": 2014,
+                        "teamCareer": 3,
+                        "teamGames": 223,
+                        "teamAvgScore": 10.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Vince Carter"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Grizzlies"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2014,
+                        "endYear": 2017,
+                        "teamCareer": 3,
+                        "teamGames": 199,
+                        "teamAvgScore": 8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Vince Carter"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Kings"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2017,
+                        "endYear": 2018,
+                        "teamCareer": 1,
+                        "teamGames": 58,
+                        "teamAvgScore": 5.4,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Vince Carter"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Hawks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2018,
+                        "endYear": 2020,
+                        "teamCareer": 2,
+                        "teamGames": 136,
+                        "teamAvgScore": 5,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Carmelo Anthony"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Nuggets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2003,
+                        "endYear": 2011,
+                        "teamCareer": 8,
+                        "teamGames": 564,
+                        "teamAvgScore": 25.2,
+                        "type": "zzzzz",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Carmelo Anthony"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Knicks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2011,
+                        "endYear": 2017,
+                        "teamCareer": 6,
+                        "teamGames": 412,
+                        "teamAvgScore": 22.4,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Carmelo Anthony"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Thunders"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2017,
+                        "endYear": 2018,
+                        "teamCareer": 1,
+                        "teamGames": 78,
+                        "teamAvgScore": 16.2,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Carmelo Anthony"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Rockets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2018,
+                        "endYear": 2019,
+                        "teamCareer": 1,
+                        "teamGames": 10,
+                        "teamAvgScore": 13.4,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Carmelo Anthony"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Trail Blazers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2019,
+                        "endYear": 2020,
+                        "teamCareer": 1,
+                        "teamGames": 50,
+                        "teamAvgScore": 15.3,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Dwyane Wade"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Heat"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2003,
+                        "endYear": 2016,
+                        "teamCareer": 13,
+                        "teamGames": 855,
+                        "teamAvgScore": 26.6,
+                        "type": "zzzzz",
+                        "champions": 3
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Dwyane Wade"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Bulls"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2016,
+                        "endYear": 2017,
+                        "teamCareer": 1,
+                        "teamGames": 60,
+                        "teamAvgScore": 18.3,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Dwyane Wade"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Cavaliers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2017,
+                        "endYear": 2017,
+                        "teamCareer": 1,
+                        "teamGames": 46,
+                        "teamAvgScore": 11.2,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Dwyane Wade"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Heat"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2017,
+                        "endYear": 2019,
+                        "teamCareer": 2,
+                        "teamGames": 93,
+                        "teamAvgScore": 15,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Joel Embiid"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "76ers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2016,
+                        "endYear": 2020,
+                        "teamCareer": 4,
+                        "teamGames": 202,
+                        "teamAvgScore": 24.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Paul George"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Pacers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2010,
+                        "endYear": 2017,
+                        "teamCareer": 7,
+                        "teamGames": 448,
+                        "teamAvgScore": 17.4,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Paul George"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Thunders"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2017,
+                        "endYear": 2019,
+                        "teamCareer": 2,
+                        "teamGames": 156,
+                        "teamAvgScore": 28,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Paul George"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Clippers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2019,
+                        "endYear": 2020,
+                        "teamCareer": 1,
+                        "teamGames": 42,
+                        "teamAvgScore": 21,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Giannis Antetokounmpo"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Bucks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2013,
+                        "endYear": 2020,
+                        "teamCareer": 7,
+                        "teamGames": 522,
+                        "teamAvgScore": 20,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Yao Ming"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Rockets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2002,
+                        "endYear": 2011,
+                        "teamCareer": 8,
+                        "teamGames": 486,
+                        "teamAvgScore": 19,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Blake Griffin"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Clippers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2010,
+                        "endYear": 2018,
+                        "teamCareer": 8,
+                        "teamGames": 504,
+                        "teamAvgScore": 22.6,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Blake Griffin"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Pistons"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2018,
+                        "endYear": 2020,
+                        "teamCareer": 2,
+                        "teamGames": 118,
+                        "teamAvgScore": 21.4,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Damian Lillard"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Trail Blazers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2012,
+                        "endYear": 2020,
+                        "teamCareer": 8,
+                        "teamGames": 607,
+                        "teamAvgScore": 24,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Steve Nash"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Suns"
+                        }
+                    },
+                    "data": {
+                        "startYear": 1996,
+                        "endYear": 1998,
+                        "teamCareer": 2,
+                        "teamGames": 141,
+                        "teamAvgScore": 9.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Steve Nash"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Mavericks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 1998,
+                        "endYear": 2004,
+                        "teamCareer": 6,
+                        "teamGames": 408,
+                        "teamAvgScore": 14.5,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Steve Nash"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Suns"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2004,
+                        "endYear": 2012,
+                        "teamCareer": 8,
+                        "teamGames": 603,
+                        "teamAvgScore": 16.5,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Steve Nash"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Lakers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2012,
+                        "endYear": 2014,
+                        "teamCareer": 2,
+                        "teamGames": 65,
+                        "teamAvgScore": 6.8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Dirk Nowitzki"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Mavericks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 1998,
+                        "endYear": 2019,
+                        "teamCareer": 21,
+                        "teamGames": 1522,
+                        "teamAvgScore": 20.7,
+                        "type": "trade",
+                        "champions": 1
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Pau Gasol"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Grizzlies"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2001,
+                        "endYear": 2008,
+                        "teamCareer": 7,
+                        "teamGames": 476,
+                        "teamAvgScore": 18.9,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Pau Gasol"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Lakers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2008,
+                        "endYear": 2014,
+                        "teamCareer": 6,
+                        "teamGames": 429,
+                        "teamAvgScore": 17.4,
+                        "type": "trade",
+                        "champions": 2
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Pau Gasol"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Bulls"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2014,
+                        "endYear": 2016,
+                        "teamCareer": 2,
+                        "teamGames": 150,
+                        "teamAvgScore": 16.5,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Pau Gasol"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Spurs"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2016,
+                        "endYear": 2019,
+                        "teamCareer": 3,
+                        "teamGames": 168,
+                        "teamAvgScore": 10.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Pau Gasol"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Bucks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2019,
+                        "endYear": 2019,
+                        "teamCareer": 1,
+                        "teamGames": 3,
+                        "teamAvgScore": 1.3,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Marc Gasol"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Grizzlies"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2008,
+                        "endYear": 2019,
+                        "teamCareer": 11,
+                        "teamGames": 769,
+                        "teamAvgScore": 15.7,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Marc Gasol"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Raptors"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2018,
+                        "endYear": 2020,
+                        "teamCareer": 2,
+                        "teamGames": 62,
+                        "teamAvgScore": 13.6,
+                        "type": "trade",
+                        "champions": 1
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Grant Hill"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Pistons"
+                        }
+                    },
+                    "data": {
+                        "startYear": 1994,
+                        "endYear": 2000,
+                        "teamCareer": 6,
+                        "teamGames": 435,
+                        "teamAvgScore": 21.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Grant Hill"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Magic"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2000,
+                        "endYear": 2007,
+                        "teamCareer": 6,
+                        "teamGames": 200,
+                        "teamAvgScore": 14.4,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Grant Hill"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Suns"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2007,
+                        "endYear": 2012,
+                        "teamCareer": 5,
+                        "teamGames": 362,
+                        "teamAvgScore": 13.2,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Grant Hill"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Clippers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2012,
+                        "endYear": 2013,
+                        "teamCareer": 1,
+                        "teamGames": 29,
+                        "teamAvgScore": 3.2,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Ray Allen"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Bucks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 1996,
+                        "endYear": 2003,
+                        "teamCareer": 7,
+                        "teamGames": 494,
+                        "teamAvgScore": 21.8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Ray Allen"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Thunders"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2003,
+                        "endYear": 2007,
+                        "teamCareer": 4,
+                        "teamGames": 296,
+                        "teamAvgScore": 23.9,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Ray Allen"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Celtics"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2007,
+                        "endYear": 2012,
+                        "teamCareer": 5,
+                        "teamGames": 358,
+                        "teamAvgScore": 16.5,
+                        "type": "trade",
+                        "champions": 1
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Ray Allen"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Heat"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2012,
+                        "endYear": 2014,
+                        "teamCareer": 2,
+                        "teamGames": 152,
+                        "teamAvgScore": 10.9,
+                        "type": "trade",
+                        "champions": 1
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Klay Thompson"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Warriors"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2011,
+                        "endYear": 2019,
+                        "teamCareer": 8,
+                        "teamGames": 615,
+                        "teamAvgScore": 19.5,
+                        "type": "zzzzz",
+                        "champions": 3
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Kristaps Porzingis"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Knicks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2015,
+                        "endYear": 2018,
+                        "teamCareer": 3,
+                        "teamGames": 186,
+                        "teamAvgScore": 18.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Kristaps Porzingis"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Mavericks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2019,
+                        "endYear": 2020,
+                        "teamCareer": 1,
+                        "teamGames": 51,
+                        "teamAvgScore": 19.2,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Shaquille O'Neal"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Magic"
+                        }
+                    },
+                    "data": {
+                        "startYear": 1992,
+                        "endYear": 1996,
+                        "teamCareer": 4,
+                        "teamGames": 295,
+                        "teamAvgScore": 26.6,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Shaquille O'Neal"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Lakers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 1996,
+                        "endYear": 2004,
+                        "teamCareer": 8,
+                        "teamGames": 514,
+                        "teamAvgScore": 27.2,
+                        "type": "trade",
+                        "champions": 3
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Shaquille O'Neal"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Heat"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2004,
+                        "endYear": 2008,
+                        "teamCareer": 4,
+                        "teamGames": 205,
+                        "teamAvgScore": 17.3,
+                        "type": "trade",
+                        "champions": 1
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Shaquille O'Neal"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Suns"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2008,
+                        "endYear": 2009,
+                        "teamCareer": 1,
+                        "teamGames": 103,
+                        "teamAvgScore": 17.8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Shaquille O'Neal"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Cavaliers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2009,
+                        "endYear": 2010,
+                        "teamCareer": 1,
+                        "teamGames": 53,
+                        "teamAvgScore": 12,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Shaquille O'Neal"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Celtics"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2010,
+                        "endYear": 2011,
+                        "teamCareer": 1,
+                        "teamGames": 37,
+                        "teamAvgScore": 9.2,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "JaVale McGee"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Wizards"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2008,
+                        "endYear": 2012,
+                        "teamCareer": 4,
+                        "teamGames": 255,
+                        "teamAvgScore": 10.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "JaVale McGee"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Nuggets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2012,
+                        "endYear": 2015,
+                        "teamCareer": 3,
+                        "teamGames": 121,
+                        "teamAvgScore": 7,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "JaVale McGee"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "76ers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2015,
+                        "endYear": 2015,
+                        "teamCareer": 1,
+                        "teamGames": 6,
+                        "teamAvgScore": 3,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "JaVale McGee"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Mavericks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2015,
+                        "endYear": 2016,
+                        "teamCareer": 1,
+                        "teamGames": 34,
+                        "teamAvgScore": 5.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "JaVale McGee"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Warriors"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2016,
+                        "endYear": 2018,
+                        "teamCareer": 2,
+                        "teamGames": 142,
+                        "teamAvgScore": 6.1,
+                        "type": "trade",
+                        "champions": 2
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "JaVale McGee"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Lakers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2018,
+                        "endYear": 2020,
+                        "teamCareer": 2,
+                        "teamGames": 136,
+                        "teamAvgScore": 6.8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Dwight Howard"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Magic"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2004,
+                        "endYear": 2012,
+                        "teamCareer": 8,
+                        "teamGames": 621,
+                        "teamAvgScore": 20.6,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Dwight Howard"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Lakers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2012,
+                        "endYear": 2013,
+                        "teamCareer": 1,
+                        "teamGames": 76,
+                        "teamAvgScore": 17.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Dwight Howard"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Rockets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2013,
+                        "endYear": 2016,
+                        "teamCareer": 3,
+                        "teamGames": 183,
+                        "teamAvgScore": 15.8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Dwight Howard"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Hawks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2016,
+                        "endYear": 2017,
+                        "teamCareer": 1,
+                        "teamGames": 74,
+                        "teamAvgScore": 13.5,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Dwight Howard"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Hornets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2017,
+                        "endYear": 2018,
+                        "teamCareer": 1,
+                        "teamGames": 81,
+                        "teamAvgScore": 16.6,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Dwight Howard"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Wizards"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2018,
+                        "endYear": 2019,
+                        "teamCareer": 1,
+                        "teamGames": 9,
+                        "teamAvgScore": 12.8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Dwight Howard"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Lakers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2019,
+                        "endYear": 2020,
+                        "teamCareer": 1,
+                        "teamGames": 62,
+                        "teamAvgScore": 7.5,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Amare Stoudemire"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Suns"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2002,
+                        "endYear": 2010,
+                        "teamCareer": 8,
+                        "teamGames": 516,
+                        "teamAvgScore": 23.1,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Amare Stoudemire"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Knicks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2010,
+                        "endYear": 2015,
+                        "teamCareer": 5,
+                        "teamGames": 255,
+                        "teamAvgScore": 14.2,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Amare Stoudemire"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Mavericks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2015,
+                        "endYear": 2015,
+                        "teamCareer": 1,
+                        "teamGames": 23,
+                        "teamAvgScore": 10.8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Amare Stoudemire"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Heat"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2015,
+                        "endYear": 2016,
+                        "teamCareer": 1,
+                        "teamGames": 52,
+                        "teamAvgScore": 5.8,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Jason Kidd"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Mavericks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 1994,
+                        "endYear": 1997,
+                        "teamCareer": 3,
+                        "teamGames": 182,
+                        "teamAvgScore": 11.7,
+                        "type": "zzzzz",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Jason Kidd"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Suns"
+                        }
+                    },
+                    "data": {
+                        "startYear": 1997,
+                        "endYear": 2001,
+                        "teamCareer": 4,
+                        "teamGames": 313,
+                        "teamAvgScore": 16.9,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Jason Kidd"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Nets"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2001,
+                        "endYear": 2008,
+                        "teamCareer": 7,
+                        "teamGames": 506,
+                        "teamAvgScore": 13.3,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Jason Kidd"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Mavericks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2008,
+                        "endYear": 2012,
+                        "teamCareer": 4,
+                        "teamGames": 318,
+                        "teamAvgScore": 10.3,
+                        "type": "trade",
+                        "champions": 1
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Jason Kidd"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Knicks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2012,
+                        "endYear": 2013,
+                        "teamCareer": 1,
+                        "teamGames": 76,
+                        "teamAvgScore": 6,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Ben Simmons"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "76ers"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2017,
+                        "endYear": 2020,
+                        "teamCareer": 3,
+                        "teamGames": 214,
+                        "teamAvgScore": 16.4,
+                        "type": "",
+                        "champions": 0
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Luka Doncic"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Team",
+                        "match": {
+                            "name": "Mavericks"
+                        }
+                    },
+                    "data": {
+                        "startYear": 2018,
+                        "endYear": 2020,
+                        "teamCareer": 2,
+                        "teamGames": 126,
+                        "teamAvgScore": 24.4,
+                        "type": "",
+                        "champions": 0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Teammate",
+            "data": [
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tim Duncan"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tony Parker"
+                        }
+                    },
+                    "data": {
+                        "teamName": "Spurs",
+                        "startYear": 2001,
+                        "endYear": 2016
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tim Duncan"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Manu Ginobili"
+                        }
+                    },
+                    "data": {
+                        "teamName": "Spurs",
+                        "startYear": 2002,
+                        "endYear": 2016
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tony Parker"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Manu Ginobili"
+                        }
+                    },
+                    "data": {
+                        "teamName": "Spurs",
+                        "startYear": 2002,
+                        "endYear": 2018
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "LeBron James"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Dwyane Wade"
+                        }
+                    },
+                    "data": {
+                        "teamName": "Heat",
+                        "startYear": 2010,
+                        "endYear": 2014
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Yao Ming"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Tracy McGrady"
+                        }
+                    },
+                    "data": {
+                        "teamName": "Rockets",
+                        "startYear": 2004,
+                        "endYear": 2010
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Kobe Bryant"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Shaquille O'Neal"
+                        }
+                    },
+                    "data": {
+                        "teamName": "Lakers",
+                        "startYear": 1996,
+                        "endYear": 2004
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Dwyane Wade"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Shaquille O'Neal"
+                        }
+                    },
+                    "data": {
+                        "teamName": "Heat",
+                        "startYear": 2004,
+                        "endYear": 2008
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Stephen Curry"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Kevin Durant"
+                        }
+                    },
+                    "data": {
+                        "teamName": "Warriors",
+                        "startYear": 2016,
+                        "endYear": 2019
+                    }
+                },
+                {
+                    "from": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Stephen Curry"
+                        }
+                    },
+                    "to": {
+                        "vertex": "Player",
+                        "match": {
+                            "name": "Klay Thompson"
+                        }
+                    },
+                    "data": {
+                        "teamName": "Warriors",
+                        "startYear": 2011,
+                        "endYear": 2019
+                    }
+                }
+            ]
+        }
+    ]
+}
