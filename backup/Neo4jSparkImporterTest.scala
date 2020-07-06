@@ -8,12 +8,27 @@ import java.util.concurrent.{CountDownLatch, Executors, TimeUnit}
 import com.google.common.base.Optional
 import com.google.common.geometry.{S2CellId, S2LatLng}
 import com.google.common.net.HostAndPort
-import com.google.common.util.concurrent.{FutureCallback, Futures, ListenableFuture, MoreExecutors, RateLimiter}
+import com.google.common.util.concurrent.{
+  FutureCallback,
+  Futures,
+  ListenableFuture,
+  MoreExecutors,
+  RateLimiter
+}
 import com.vesoft.nebula.client.graph.async.AsyncGraphClientImpl
 import com.vesoft.nebula.graph.ErrorCode
 import com.vesoft.nebula.spark.tools.TooManyErrorsException
 import com.vesoft.nebula.tools.generator.v2.reader.Neo4JReader
-import com.vesoft.nebula.tools.generator.v2.{Configs, DataSourceConfigEntry, FileBaseSourceConfigEntry, HiveSourceConfigEntry, KafkaSourceConfigEntry, Neo4jSourceConfigEntry, SocketSourceConfigEntry, SourceCategory}
+import com.vesoft.nebula.tools.generator.v2.{
+  Configs,
+  DataSourceConfigEntry,
+  FileBaseSourceConfigEntry,
+  HiveSourceConfigEntry,
+  KafkaSourceConfigEntry,
+  Neo4jSourceConfigEntry,
+  SocketSourceConfigEntry,
+  SourceCategory
+}
 import org.apache.spark.SparkConf
 //import com.vesoft.nebula.tools.generator.v2.reader.{Neo4JReader,Reader, ServerBaseReader}
 import org.apache.hadoop.conf.Configuration
@@ -120,22 +135,26 @@ object Neo4jSparkImporterTest {
       .builder()
       .appName(PROGRAM_NAME)
 
-    if (configs.tagsConfig.nonEmpty) {
-      val neo4jSourceConfigEntry =
-        configs.tagsConfig.head.dataSourceConfigEntry.asInstanceOf[Neo4jSourceConfigEntry]
-      val sparkConf: SparkConf = new SparkConf().setAppName("InitSpark").setMaster("local[*]")
-      sparkConf.set("spark.neo4j.bolt.url", neo4jSourceConfigEntry.address)
-      sparkConf.set("spark.neo4j.bolt.user", neo4jSourceConfigEntry.user)
-      sparkConf.set("spark.neo4j.bolt.password", neo4jSourceConfigEntry.password)
-      sessionBuild.config(sparkConf)
-      val session = sessionBuild.getOrCreate()
-      session.sparkContext.setLogLevel("WARN")
-      val neo4jReader = new Neo4JReader(session,
-                                        neo4jSourceConfigEntry.address,
-                                        neo4jSourceConfigEntry.user,
-                                        Option(neo4jSourceConfigEntry.password),
-                                        true,
-                                        "")
+    val neo4jSourceConfigEntry =
+      configs.tagsConfig.head.dataSourceConfigEntry.asInstanceOf[Neo4jSourceConfigEntry]
+    val sparkConf: SparkConf = new SparkConf().setAppName("InitSpark").setMaster("local[*]")
+    sparkConf.set("spark.neo4j.bolt.url", neo4jSourceConfigEntry.address)
+    sparkConf.set("spark.neo4j.bolt.user", neo4jSourceConfigEntry.user)
+    sparkConf.set("spark.neo4j.bolt.password", neo4jSourceConfigEntry.password)
+    sessionBuild.config(sparkConf)
+    val session = sessionBuild.getOrCreate()
+    session.sparkContext.setLogLevel("WARN")
+
+    val errorBuffer = ArrayBuffer[String]()
+
+    val neo4jReader = new Neo4JReader(session,
+                                      neo4jSourceConfigEntry.address,
+                                      neo4jSourceConfigEntry.user,
+                                      Option(neo4jSourceConfigEntry.password),
+                                      true,
+                                      "")
+//    if (configs.tagsConfig.nonEmpty) {
+    if (false) {
       println("===============================")
       for (tagConfig <- configs.tagsConfig) {
 
@@ -163,7 +182,7 @@ object Neo4jSparkImporterTest {
           dataFrame
             .map(row => {
               val neo4jValues = (for {
-                neo4jProperty <- tagConfig.fields.keys
+                neo4jProperty <- tagConfig.fields.keys.toList
                 if neo4jProperty.trim.length != 0
               } yield extraValue(row, neo4jProperty))
               (extraValue(
@@ -173,7 +192,7 @@ object Neo4jSparkImporterTest {
             })(Encoders.tuple(Encoders.STRING, Encoders.STRING))
             .foreachPartition { iterator: Iterator[(String, String)] =>
               {
-                val service      = MoreExecutors.listeningDecorator(Executors.newFixedThreadPool(1))
+                val service = MoreExecutors.listeningDecorator(Executors.newFixedThreadPool(1))
                 val hostAndPorts =
                   configs.databaseConfig.addresses.map(HostAndPort.fromString).asJava
                 val client = new AsyncGraphClientImpl(
@@ -190,7 +209,7 @@ object Neo4jSparkImporterTest {
                   val switchSpaceCode =
                     client.execute(USE_TEMPLATE.format(configs.databaseConfig.space)).get().get()
                   if (isSuccessfully(switchSpaceCode)) {
-                    val futures = new ListBuffer[ListenableFuture[Optional[Integer]]]()
+                    val futures     = new ListBuffer[ListenableFuture[Optional[Integer]]]()
                     val rateLimiter = RateLimiter.create(configs.rateConfig.limit)
                     iterator.grouped(tagConfig.batch).foreach { tags =>
                       val exec = BATCH_INSERT_TEMPLATE.format(
@@ -205,10 +224,14 @@ object Neo4jSparkImporterTest {
                               tagConfig.vertexPolicy.get match {
                                 case KeyPolicy.HASH =>
                                   INSERT_VALUE_TEMPLATE_WITH_POLICY
-                                    .format(KeyPolicy.HASH.toString, tag._1.replace("\"",""), tag._2)
+                                    .format(KeyPolicy.HASH.toString,
+                                            tag._1.replace("\"", ""),
+                                            tag._2)
                                 case KeyPolicy.UUID =>
                                   INSERT_VALUE_TEMPLATE_WITH_POLICY
-                                    .format(KeyPolicy.UUID.toString, tag._1.replace("\"",""), tag._2)
+                                    .format(KeyPolicy.UUID.toString,
+                                            tag._1.replace("\"", ""),
+                                            tag._2)
                                 case _ => throw new IllegalArgumentException
                               }
                             }
@@ -217,7 +240,8 @@ object Neo4jSparkImporterTest {
                       )
 
                       LOG.warn(s"Exec : ${exec}")
-                      if (rateLimiter.tryAcquire(configs.rateConfig.timeout, TimeUnit.MILLISECONDS)) {
+                      if (rateLimiter
+                            .tryAcquire(configs.rateConfig.timeout, TimeUnit.MILLISECONDS)) {
                         val future = client.execute(exec)
                         futures += future
                       } else {
@@ -227,7 +251,6 @@ object Neo4jSparkImporterTest {
                             s"Too Many Errors ${configs.errorConfig.errorMaxSize}")
                         }
                       }
-
 
                       val latch = new CountDownLatch(futures.size)
                       for (future <- futures) {
@@ -254,16 +277,161 @@ object Neo4jSparkImporterTest {
         }
       }
     }
+
+    if (configs.edgesConfig.nonEmpty) {
+
+
+      println("===============================")
+      for (edgesConfig <- configs.edgesConfig) {
+        val query_smt = s"match (s)-[r:${edgesConfig.label}]->(t) return " +
+          s"${if (edgesConfig.sourceField.getOrElse("id()") != "id()")
+            s"s.${edgesConfig.sourceField.mkString(",")}"
+          else "id(s)"}," +
+          s"${if (edgesConfig.targetField != "id()")
+            "t." + edgesConfig.targetField
+          else "id(t)"}," +
+          s"${edgesConfig.fields.keys.map(r => "r." + r + " as " + r).mkString(",")}"
+        println(query_smt)
+        val nebulaValues = edgesConfig.fields.keys.mkString(",")
+        var batch_count  = 0
+        val batch_data   = ArrayBuffer[String]()
+        val dataFrame    = neo4jReader.read(query_smt)
+        dataFrame.collect()
+          .map(
+            row => {
+              val neo4jValues = for {
+                neo4jProperty <- edgesConfig.fields.keys.toList
+                if neo4jProperty.trim.length != 0
+              } yield extraValue(row, neo4jProperty).toString
+              if(neo4jValues.size==2) println(neo4jValues+"\t"+row)
+              (extraValue(row,
+                          if (edgesConfig.sourceField.getOrElse("id()") != "id()")
+                            "s."+edgesConfig.sourceField.mkString(",")
+                          else "id(s)").toString,
+               extraValue(row,
+                          if (edgesConfig.targetField != "id()") "t."+edgesConfig.targetField
+                          else "id(t)").toString,
+               neo4jValues.mkString(","))
+            })//(Encoders.tuple(Encoders.STRING, Encoders.STRING, Encoders.STRING))
+          .foreach(data => {
+            println(data)
+            val sourceVid = if (edgesConfig.sourcePolicy.isDefined) {
+
+              edgesConfig.sourcePolicy.get match {
+                case KeyPolicy.HASH =>
+                  ENDPOINT_TEMPLATE.format(KeyPolicy.HASH.toString, data._1.replace("\"", ""))
+                case KeyPolicy.UUID =>
+                  ENDPOINT_TEMPLATE.format(KeyPolicy.UUID.toString, data._1.replace("\"", ""))
+                case _ =>
+                  throw new IllegalArgumentException()
+              }
+            } else data._1
+
+            val targetVid = if (edgesConfig.targetPolicy.isDefined) {
+              edgesConfig.targetPolicy.get match {
+
+                case KeyPolicy.HASH =>
+                  ENDPOINT_TEMPLATE.format(KeyPolicy.HASH.toString, data._2.replace("\"", ""))
+                case KeyPolicy.UUID =>
+                  ENDPOINT_TEMPLATE.format(KeyPolicy.UUID.toString, data._2.replace("\"", ""))
+                case _ =>
+                  throw new IllegalArgumentException()
+              }
+            } else data._2
+            batch_data += EDGE_VALUE_WITHOUT_RANKING_TEMPLATE_WITH_POLICY.format(sourceVid, targetVid, data._3)
+            batch_count += 1
+            if (batch_count >= edgesConfig.batch) {
+              val futures     = new ListBuffer[ListenableFuture[Optional[Integer]]]()
+              val rateLimiter = RateLimiter.create(configs.rateConfig.limit)
+              val exec = BATCH_INSERT_TEMPLATE.format(Type.EDGE.toString,
+                                                      edgesConfig.name,
+                                                      nebulaValues,
+                                                      batch_data.mkString(","))
+              println(exec)
+              val hostAndPorts =
+                configs.databaseConfig.addresses.map(HostAndPort.fromString).asJava
+              val client = new AsyncGraphClientImpl(
+                hostAndPorts,
+                configs.connectionConfig.timeout,
+                configs.connectionConfig.retry,
+                configs.executionConfig.retry
+              )
+              client.setUser(configs.userConfig.user)
+              client.setPassword(configs.userConfig.password)
+
+              if (isSuccessfully(client.connect())) {
+                val switchSpaceCode =
+                  client.execute(USE_TEMPLATE.format(configs.databaseConfig.space)).get().get()
+                if (!isSuccessfully(switchSpaceCode)) {}
+              }
+              if (rateLimiter.tryAcquire(configs.rateConfig.timeout, TimeUnit.MILLISECONDS)) {
+                val future = client.execute(exec)
+                futures += future
+              } else {
+                LOG.debug("Save the error execution sentence into buffer")
+                errorBuffer += exec
+                if (errorBuffer.size == configs.errorConfig.errorMaxSize) {
+                  throw TooManyErrorsException(
+                    s"Too Many Errors ${configs.errorConfig.errorMaxSize}")
+                }
+              }
+              batch_data.clear()
+              batch_count = 0
+            }
+          }) //)
+
+
+        if(batch_data.nonEmpty){
+
+          val futures     = new ListBuffer[ListenableFuture[Optional[Integer]]]()
+          val rateLimiter = RateLimiter.create(configs.rateConfig.limit)
+          val exec = BATCH_INSERT_TEMPLATE.format(Type.EDGE.toString,
+            edgesConfig.name,
+            nebulaValues,
+            batch_data.mkString(","))
+          println(exec)
+          val hostAndPorts =
+            configs.databaseConfig.addresses.map(HostAndPort.fromString).asJava
+          val client = new AsyncGraphClientImpl(
+            hostAndPorts,
+            configs.connectionConfig.timeout,
+            configs.connectionConfig.retry,
+            configs.executionConfig.retry
+          )
+          client.setUser(configs.userConfig.user)
+          client.setPassword(configs.userConfig.password)
+
+          if (isSuccessfully(client.connect())) {
+            val switchSpaceCode =
+              client.execute(USE_TEMPLATE.format(configs.databaseConfig.space)).get().get()
+            if (!isSuccessfully(switchSpaceCode)) {}
+          }
+          if (rateLimiter.tryAcquire(configs.rateConfig.timeout, TimeUnit.MILLISECONDS)) {
+            val future = client.execute(exec)
+            futures += future
+          } else {
+            LOG.debug("Save the error execution sentence into buffer")
+            errorBuffer += exec
+            if (errorBuffer.size == configs.errorConfig.errorMaxSize) {
+              throw TooManyErrorsException(
+                s"Too Many Errors ${configs.errorConfig.errorMaxSize}")
+            }
+          }
+        }
+
+      }
+    }
+    session.close()
   }
 
   /**
-    * Extra value from the row by field name.
-    * When the field is null, we will fill it with default value.
-    *
-    * @param row   The row value.
-    * @param field The field name.
-    * @return
-    */
+   * Extra value from the row by field name.
+   * When the field is null, we will fill it with default value.
+   *
+   * @param row   The row value.
+   * @param field The field name.
+   * @return
+   */
   private[this] def extraValue(row: Row, field: String): Any = {
     val index = row.schema.fieldIndex(field)
     row.schema.fields(index).dataType match {
